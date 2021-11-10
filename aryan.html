@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js">
+   </script>
+    <form>
+      <p>select a picture <input type="file" id="user_picture" onchange = "update_image()
+      "></p>
+      <p>
+        Meme Text: <input type="text" id="user_text" maxlength="70" oninput="update_text()">
+      </p>
+      <p>
+        next Meme Text: <input type="text" id="user_text2" maxlength="70" oninput="update_text1()">
+      </p>
+    </form>
+      <div id="meme_text">&nbsp</div>
+      <div id="next_meme">&nbsp</div>
+      <div id = "meme_picture"><img src = "" 
+      height = "500" width = "600" </div>
+      
+
+  </body>
+</html>

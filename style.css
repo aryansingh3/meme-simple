@@ -1,0 +1,26 @@
+#meme_text{
+    background-color: transparent;
+    font-size: 40px;
+    font-family: Impact;
+    color: white;
+    text-shadow: black 0px 0px 10px;
+    width: 600px;
+    position: absolute;
+    left: 20px;
+    top: 500px;
+ 
+ 
+ }
+ #next_meme{
+    background-color: transparent;
+    font-size: 30px;
+    font-family:  sans-serif;
+    color: white;
+    text-shadow: black 0px 0px 10px;
+    width: 600px;
+    position: absolute;
+    left: 30px;
+    top: 150px;
+
+
+ }
